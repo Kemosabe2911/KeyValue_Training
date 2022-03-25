@@ -115,15 +115,45 @@ main .btn{
     font-size: 16px;
 }
 
-
 main .btn-primary{
     color: #fff;
     background-color: #6699ff;
     border: 1px solid #6699ff;
+    box-shadow: 1px 1px 1px #6699ff;
 }
 
 main .btn-secondary{
     color: #333;
     background: #fff;
     border: 1px solid #333;
+    box-shadow: 1px 1px 1px #999;
+}
+
+main input[type='file']{
+    display: none;
+}
+
+main .file-upload{
+    height: 34px;
+    padding-left: 10px;
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    color: #666;
+    align-items: center;
+    justify-content: space-between;
+}
+main .file-upload .btn-upload{
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 0px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
